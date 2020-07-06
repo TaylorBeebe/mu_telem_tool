@@ -1,0 +1,6 @@
+[submodule "edk2-pytool-extensions"]
+	path = edk2-pytool-extensions
+	url = https://github.com/TaylorBeebe/edk2-pytool-extensions.git
+[submodule "edk2-pytool-library"]
+	path = edk2-pytool-library
+	url = https://github.com/TaylorBeebe/edk2-pytool-library.git
