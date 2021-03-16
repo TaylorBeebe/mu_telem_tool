@@ -1,7 +1,7 @@
-## About
-This is a temporary repo for staging a work-in-progress which will eventually make it into the 
+## About partner_use branch
+The partner_use branch of this repo is for staging a work-in-progress which will eventually make it into the 
 [Edk2-Pytool-Library](https://github.com/tianocore/edk2-pytool-extensions) and 
-[Edk2-Pytool-Extensions](https://github.com/tianocore/edk2-pytool-library) repositories. This is NOT a 
+[Edk2-Pytool-Extensions](https://github.com/tianocore/edk2-pytool-library) repositories. This is branch is NOT a 
 full release for parsing CPER/WHEA records, but provides enough functionality for most situations.
 
 **WARNING: Remaining links in README only work if this repo has been cloned locally and ```git submodule update --init``` run**
