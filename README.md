@@ -29,10 +29,11 @@ the directory [edk2-pytool-library\edk2toollib\windows\telem\decoders](edk2-pyto
 the section data will be passed to the plugin's Parse() function expecting a string in return. 
 
 ## Usage
-Please follow these steps for parsing records:
+Please follow these steps for parsing records in the partner_use branch:
 1. Open a command line within the repo root directory 
-2. Run the command ```git submodule update --init``` 
-3. Type the command ```.\setup.bat``` which will simply install locally the two subrepos in this directory and pip install the evtx requirement. 
-4. Use the command ```parse_cper -h``` to see the relevant commands
-5. Try parsing a CPER. Export Microsoft-Windows-Kernel-WHEA and/or Microsoft-Windows-WHEA-Logger events and specify
+2. Run the command ```git checkout partner_use```
+3. Run the command ```git submodule update --init``` 
+4. Type the command ```.\setup.bat``` which will simply install locally the two subrepos in this directory and pip install the evtx requirement. 
+5. Use the command ```parse_cper -h``` to see the relevant commands
+6. Try parsing a CPER. Export Microsoft-Windows-Kernel-WHEA and/or Microsoft-Windows-WHEA-Logger events and specify
 them using the ```-s``` flag: Ex. ```parse_cper -f -s example.evtx -o output.txt```
